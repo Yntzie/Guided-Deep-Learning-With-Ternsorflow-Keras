@@ -30,10 +30,9 @@ pip install tensorflow numpy matplotlib
 ---
 
 ## 🚀 Cara Menjalankan
-1. Clone / simpan repository / file notebook.
+1. Clone / simpan repository / file notebook with ssh.
    ```bash
-   git clone <repo-url>
-   cd <repo-folder>
+   git clone git@github.com:Yntzie/Guided-Deep-Learning-With-Ternsorflow-Keras.git
    ```
 2. Buka notebook:
    ```bash
@@ -67,15 +66,6 @@ Jika ingin menggunakan lagu/lirik baru:
 - **Training Loss:** menunjukkan seberapa baik model belajar.
 - **Generated Text:** model akan menulis teks/lagu baru berdasarkan pola dataset.
 - (Opsional) **Audio Playback:** jika dataset berupa notasi musik ABC.
-
----
-
-## 📂 Struktur File
-```
-GUIDED_DL_2_12298.ipynb   # Notebook utama
-lagu_baru.txt             # (opsional) Dataset lagu/lirik tambahan
-README.md                 # Dokumentasi (file ini)
-```
 
 ---
 
